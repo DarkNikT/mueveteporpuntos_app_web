@@ -10,11 +10,11 @@ import HomeIcon from '@material-ui/icons/Home';
 function Admin(props) {
     return (
             <BrowserRouter>
-                <Row className = "pt-5">
+                <Row className = "">
                     <Col md={3} lg={2} className="Admin__nav_dashboard">
                         <Navbar >
                             <Nav defaultActiveKey="/admin" className="flex-column">
-                                <Link to="/admin"><HomeIcon/></Link>
+                                <Link to="/admin/main"><HomeIcon/></Link>
                                 <Link to="/admin/usuarios">usuarios</Link>
                                 <Link to="/admin/eventos">eventos</Link>
                                 <Link to="/admin/premios">premios</Link>

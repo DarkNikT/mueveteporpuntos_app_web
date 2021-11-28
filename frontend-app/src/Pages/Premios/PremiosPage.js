@@ -1,13 +1,11 @@
-
 import React, { Component } from 'react'
 
-export default class DashboardMain extends Component {
+export default class PremiosPage extends Component {
     render() {
         return (
             <div>
-                <p>Resumen del dashboard</p>
+                <h1>Pagina premios</h1>
             </div>
         )
     }
 }
-
